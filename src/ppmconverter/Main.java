@@ -59,7 +59,7 @@ public class Main {
         scan.nextLine();
         
         data = new float[scan.nextInt() * 3][scan.nextInt()];
-        //descatar informação de largura;
+        //obtém a largura do pixel;
         pixelSize = (float)scan.nextInt();
         
         for(int j = 0; j < data[0].length; j++)
